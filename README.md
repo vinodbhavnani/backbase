@@ -12,7 +12,8 @@ Tasks Explanation:
 7) The API key is also stored in both environment.ts and environment.prod.ts so the application will run on both environments
 8) Used Material Components such as expandable-panel and spinner
 9) Shown how reusable components such as Material can have their own shared module
-10) The UI is not so appealing as I am not a good designer (Apologies for that)
+10) Shown use of basic Angular animations
+11) The UI is not so appealing as I am not a good designer (Apologies for that)
 
 # WeatherApp
 
