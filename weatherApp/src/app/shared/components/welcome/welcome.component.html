@@ -1,0 +1,4 @@
+<div class="welcome-container open-close-container" [@openClose]="isOpen ? 'open' : 'closed'">
+    <h1 class="welcome">{{title}}</h1>
+    <button type="button" class="btn btn-primary" [routerLink]="['weather']">{{buttonText}}</button>
+</div>

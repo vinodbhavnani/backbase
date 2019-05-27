@@ -1,0 +1,32 @@
+.container {
+  // width: 1170px;
+  // margin: auto;
+    color: #fff;
+  .welcome-container {
+    text-align: center;
+    vertical-align: middle;
+    margin: 20% auto;
+    h1 {
+      font-size: 3em;
+    }
+    .btn {
+      margin: 50px;
+      font-size: 1.5em;
+      padding: 10px;
+    }
+  }
+}
+
+// :host {
+//   display: block;
+// }
+
+// .open-close-container {
+//   border: 1px solid #dddddd;
+//   margin-top: 1em;
+//   padding: 20px 20px 0px 20px;
+//   color: #000000;
+//   font-weight: bold;
+//   font-size: 20px;
+// }
+

@@ -1,0 +1,57 @@
+.spinner {
+  margin: 0 auto;
+  width: fit-content;
+}
+.accordion-container{
+  margin: 10% 0;
+  font-size: 1em;
+  font-weight: bold;
+  .mat-expansion-panel {
+    // background: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0.5));
+    background: white;
+    color: white !important;
+    .mat-expansion-panel-header-description {
+      padding: 15px;
+    }
+  }
+  ::ng-deep .mat-expansion-panel-content{
+    background-color: white !important;
+    color: grey;
+  }
+  ::ng-deep .mat-expansion-panel-header-description, .mat-expansion-panel-header-title {
+    flex-grow: 1;
+  }
+  .accordion-title {
+    width: 250px;
+  }
+  .accordion-header-data {
+    margin-right: 10%;
+    font-size: 1.5em;
+    &.temperature {
+
+      color: rgb(17, 0, 255);
+    }
+    .degree-sign {
+      font-size: 0.5em;
+      color: grey;
+    }
+  }
+  .weather-icon {
+    vertical-align: middle;
+  }
+  .forecast-block{
+    font-size: 0.8em;
+    width: 20%;
+    float: left;
+    border: 1px solid;
+    text-align: center;
+    .forecast-row {
+      &.forecast-time {
+        font-size: 2em;
+        color: Black;
+      }
+      margin: 20px;
+    }
+  }
+}
+

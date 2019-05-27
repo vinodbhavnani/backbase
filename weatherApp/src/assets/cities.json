@@ -1,0 +1,45 @@
+[{
+  "id": 2759793,
+  "name": "Amsterdam",
+  "country": "NL",
+  "coord": {
+    "lon": 4.88333,
+    "lat": 52.366669
+  }
+},
+{
+  "id": 2643744,
+  "name": "City of London",
+  "country": "GB",
+  "coord": {
+    "lon": -0.08901,
+    "lat": 51.51334
+  }
+},
+{
+  "id": 2968815,
+  "name": "Paris",
+  "country": "FR",
+  "coord": {
+    "lon": 2.3486,
+    "lat": 48.853401
+  }
+},
+{
+  "id": 2950159,
+  "name": "Berlin",
+  "country": "DE",
+  "coord": {
+    "lon": 13.41053,
+    "lat": 52.524368
+  }
+},
+{
+  "id": 2747891,
+  "name": "Rotterdam",
+  "country": "NL",
+  "coord": {
+    "lon": 4.47917,
+    "lat": 51.922501
+  }
+}]
