@@ -1,5 +1,5 @@
-import { Component, HostBinding, OnInit, AfterViewInit, ChangeDetectorRef } from '@angular/core';
-import { trigger, state, style, transition, animate } from '@angular/animations'
+import { Component, HostBinding, OnInit } from '@angular/core';
+import { trigger, state, style, transition, animate } from '@angular/animations';
 
 @Component({
   selector: 'app-welcome-component',
@@ -20,17 +20,16 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
     ]),
   ],
 })
-export class WelcomeComponent implements AfterViewInit {
+export class WelcomeComponent implements OnInit {
   title = 'Welcome to the Weather App';
   buttonText = 'Continue to the site';
   isOpen = false;
-  constructor(private cdr: ChangeDetectorRef) {}
+  constructor() {}
   toggle() {
     this.isOpen = !this.isOpen;
   }
-
-  ngAfterViewInit() {
+  
+  ngOnInit() {
     this.toggle();
-    this.cdr.detectChanges();
   }
 }
